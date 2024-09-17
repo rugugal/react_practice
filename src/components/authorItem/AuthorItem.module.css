@@ -1,0 +1,10 @@
+
+.author{
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 10px;
+  border-bottom: 1px solid #565656;
+}
+.author:hover{
+  background-color: #e8e8e8;
+}

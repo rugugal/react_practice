@@ -1,0 +1,27 @@
+.bookList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 1110px;
+  margin: 20px auto;
+}
+
+.bookItem {
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+  text-align: center;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+.filters{
+  display: flex;
+  justify-content: space-between;
+}
+.addButton{
+  display: flex;
+  justify-content: end;
+}
+
+

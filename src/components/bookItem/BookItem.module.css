@@ -1,0 +1,26 @@
+.bookItem{
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+  text-align: center;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+.bookItem__img{
+  align-items: center;
+}
+.bookItem__noImg{
+  background-color: #BF9130;
+  font-size: 1.2em;
+  width: 150px;
+  height: 220px;
+}
+.bookItem:hover{
+  scale: 1.01;
+}
+.bookItem__author{
+  color: #5b5b5b;
+}
+.bookItem__outOfStock {
+  color: red; 
+}

@@ -1,0 +1,12 @@
+.myButton{
+  padding: 5px 20px;
+  border: 2px solid #BF9130;
+  background-color: #BF9130;
+  color: white;
+  margin-right: 5px;
+}
+.myButton:hover{
+  /* background-color: #ffffff;
+  color: #BF9130; */
+  scale: 1.01;
+}

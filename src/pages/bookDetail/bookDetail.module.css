@@ -1,0 +1,29 @@
+.bookDetail {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap; 
+}
+
+.bookDetail__img {
+  width: 200px;
+  height: auto;
+}
+.bookDetail__info {
+  max-width: 70vw;
+  min-width: 400px;
+}
+.bookDetail__img{
+  background-color: #BF9130;
+  text-align: center;
+  width: 200px;
+  height: 300px;
+}
+.bookLink{
+  border-bottom: 3px solid transparent;
+}
+.bookLink:hover{
+  border-bottom: 3px solid #BF9130;
+}
+
+

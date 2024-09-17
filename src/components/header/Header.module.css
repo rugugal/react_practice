@@ -1,0 +1,25 @@
+.header {
+  box-shadow: inset 0 -1px 0 0 #a0a0a0;
+}
+.navigation {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.navigation__list {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+.navigation__listItem a{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.navigation__listItem a:hover{
+  color: #BF9130;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid #BF9130;
+}

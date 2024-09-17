@@ -1,0 +1,24 @@
+.myModal {
+  position: fixed;
+  inset: 0;
+  display: none; /* По умолчанию flex, чтобы выравнивать содержимое */
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.5);
+  z-index: 1000;
+}
+.myModalContent {
+  position: relative;
+  padding: 25px;
+  background: white;
+  border-radius: 15px;
+  min-width: 250px;
+  max-width: 60vw;
+  overflow-y: auto; /* Позволяет прокручивать содержимое */
+  max-height: 80vh; /* Ограничиваем высоту окна */
+}
+.myModal.active{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

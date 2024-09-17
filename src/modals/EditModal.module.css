@@ -1,0 +1,11 @@
+.closeButton{
+  text-align: end;
+}
+.imagePreview{
+  
+  text-align: center;
+}
+.imagePreview img{
+  width: 150px;
+  height: 220px;
+}

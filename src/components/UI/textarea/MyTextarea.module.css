@@ -1,0 +1,12 @@
+.myTextarea {
+  width: 100%; /* Занимает всю доступную ширину */
+  height: 150px; /* Фиксированная высота для описания книги */
+  padding: 10px; /* Отступ внутри текстбокса */
+  border-radius: 5px; /* Скругленные углы */
+  border: 1px solid #ccc; /* Легкая рамка */
+  font-size: 16px; /* Размер шрифта */
+  resize: none; /* Разрешает изменение высоты */
+  overflow-y: auto;
+  border: 1px solid #BF9130;
+  outline: none;
+}

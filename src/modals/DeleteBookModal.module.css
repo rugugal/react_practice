@@ -1,0 +1,10 @@
+.closeButton{
+  text-align: end;
+}
+.deleteButtons{
+  text-align: end;
+  margin-top: 15px;
+}
+.deleteButtons button{
+  width: 48%;
+}
