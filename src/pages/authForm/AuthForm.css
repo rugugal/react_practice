@@ -82,8 +82,8 @@
   background-position: center;
   filter: blur(15px);
 }
-.body.signup .container span::before,
-.body.signup .container span::after {
+body.signup .container span::before,
+body.signup .container span::after {
   background: url(/src/img/img1.jpg);
   background-attachment: fixed;
   background-size: cover;
@@ -104,10 +104,10 @@ form {
 form#signupForm {
   left: 100%;
 }
-.body.signup form#signinForm {
+body.signup form#signinForm {
   left: -100%;
 }
-.body.signup form#signupForm {
+body.signup form#signupForm {
   left: 0;
 }
 form h2 {
